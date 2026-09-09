@@ -1,0 +1,27 @@
+.section {
+  display: flex;
+  gap: 5px;
+  padding: 20px;
+}
+.card {
+  flex: 1;
+  padding: 25px;
+  border-radius: 10px;
+}
+.card p {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+.card h2 {
+  font-size: 30px;
+  margin: 0;
+}
+.income-card {
+  background-color: #dff7e3;
+}
+.expense {
+  background-color: #ffe0e0;
+}
+.balance {
+  background-color: #dcecff;
+}
