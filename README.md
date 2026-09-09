@@ -15,9 +15,9 @@ Conditional Rendering – Displaying messages when there are no transactions.
 Component-based CSS – Separating styles for individual components.
 
 
-Technologies
-React.js
-Vite
-JavaScript
-HTML/JSX
-CSS
+Technologies:
+React.js,
+Vite,
+JavaScript,
+HTML/JSX,
+CSS.
