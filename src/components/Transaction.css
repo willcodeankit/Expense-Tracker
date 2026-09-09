@@ -1,19 +1,19 @@
 .Transaction {
-  margin: 10px;
-  padding: 20px;
+  background-color: #eee;
+  margin: 0 40px;
+  padding: 30px;
   border-radius: 10px;
-  background-color: #f5f5f5;
 }
 
-.form h2 {
-  margin-top: 0;
+.Transaction h2 {
   margin-bottom: 20px;
 }
 
 .form {
   display: flex;
-  gap: 40px;
-  align-items: end;
+  gap: 30px;
+  align-items: flex-end;
+  flex-wrap: wrap;
 }
 
 .forms {
@@ -23,22 +23,26 @@
 }
 
 .forms label {
-  font-size: 16px;
   font-weight: bold;
 }
 
-.form input,
-.form select {
+.forms input,
+.forms select {
   padding: 10px;
-  font-size: 16px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 6px;
+  min-width: 220px;
 }
 
-.form button {
-  padding: 10px 20px;
-  font-size: 16px;
+.btn {
+  padding: 12px 24px;
+  background-color: #ddd;
   border: none;
-  border-radius: 5px;
+  border-radius: 6px;
   cursor: pointer;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #ccc;
 }

@@ -1,27 +1,37 @@
 .section {
   display: flex;
-  gap: 5px;
-  padding: 20px;
+  gap: 20px;
+  padding: 30px 40px;
 }
+
 .card {
   flex: 1;
-  padding: 25px;
+  padding: 30px;
   border-radius: 10px;
 }
+
 .card p {
-  font-size: 18px;
-  margin: 0 0 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
+
 .card h2 {
-  font-size: 30px;
-  margin: 0;
+  font-size: 32px;
 }
+
 .income-card {
-  background-color: #dff7e3;
+  background-color: #d9f2d9;
 }
+
 .expense {
-  background-color: #ffe0e0;
+  background-color: #fbdcdc;
 }
+
+.expense p,
+.expense h2 {
+  color: #d63333;
+}
+
 .balance {
-  background-color: #dcecff;
+  background-color: #dce6fb;
 }
