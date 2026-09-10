@@ -5,7 +5,7 @@ function Navbar() {
     <nav className="nav">
       <div className="navbar">
         <img src="/expense-logo.png" alt="expense logo" />
-        <h1>Expense Tracker</h1>
+        <h1><Money></Money> Expense</h1>
       </div>
       <ul>
         <li>About</li>
